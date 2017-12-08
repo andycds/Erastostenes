@@ -1,6 +1,16 @@
 package br.pro.software.erastostenes;
 
 public class GeradorPrimos {
+	
+	
+	private boolean metodoPrivado() {
+		return false;
+	}
+	
+	public boolean metodoPublico() {
+		return metodoPrivado();
+	}
+	
 	final int primeiroPrimo = 2;
 	
 	public String ate(int numero) throws NumeroInvalidoException {
